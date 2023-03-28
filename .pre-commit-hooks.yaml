@@ -1,0 +1,7 @@
+- id: muon-fmt
+  name: muon fmt
+  description: Run the muon formatter on meson.build files
+  language: docker
+  entry: muon fmt -i
+  types_or: [meson]
+  minimum_pre_commit_version: 2.9.2
